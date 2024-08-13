@@ -10,23 +10,33 @@ export const Portfolio = () => {
     const portfolio = [
         {
             id: 1,
-            src: weather
+            src: weather,
+            demo: 'https://1mansri.github.io/weather/',
+            code: 'https://github.com/1mansri/weather'
         },
         {
             id: 2,
-            src: javascriptProject
+            src: javascriptProject,
+            demo: 'https://1mansri.github.io/Durgesh-keyboard/',
+            code: 'https://github.com/1mansri/Durgesh-keyboard'
         },
         {
             id: 3,
-            src: cssPortfolio
+            src: cssPortfolio,
+            demo: 'https://1mansri.github.io/Durgesh-Kumar/',
+            code: 'https://github.com/1mansri/Durgesh-Kumar'
         },
         {
             id: 4,
-            src: htmlPortfolio
+            src: htmlPortfolio,
+            demo: 'https://1mansri.github.io/Work-of-Durgesh/',
+            code: 'https://github.com/1mansri/Work-of-Durgesh'
         },
         {
             id: 5,
-            src: novel
+            src: novel,
+            demo: 'https://www.pocketnovel.com/novel/5981e851f84273c250e384349f3000cf23cfa9fb',
+            code: 'https://www.yourquote.in/aman-sri-doxjv/quotes'
         },
 
     ]
@@ -43,14 +53,14 @@ export const Portfolio = () => {
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
 
                     {
-                        portfolio.map(({ id, src }) => (
+                        portfolio.map(({ id, src, demo, code }) => (
                             <div key={id} className='shadow-md shadow-gray-400 rounded-lg'>
                                 <img src={src} alt='weather app demo pic'
                                     className='rounded-md duration-200 hover:scale-105'
                                 />
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Demo</button>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button>
+                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'> <a href={demo}>Demo</a> </button>
+                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Code</a></button>
                                 </div>
                             </div>
                         ))
