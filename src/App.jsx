@@ -5,6 +5,9 @@ import { About } from "./components/About"
 import { Portfolio } from "./components/Portfolio"
 import { Experience } from "./components/Experience"
 import { Contact } from "./components/Contact"
+import { SocialCard } from "./components/Socialcard"
+import { Input } from "./components/Input"
+
 function App() {
 
   return (
@@ -17,7 +20,8 @@ function App() {
         <Experience />
         <Contact />
 
-        <SocialLink />
+        {/* <SocialLink /> */}
+        <SocialCard />
 
       </div>
     </>

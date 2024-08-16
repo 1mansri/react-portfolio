@@ -1,5 +1,4 @@
 import React from 'react'
-
 export const Contact = () => {
     return (
         <div name='contact' className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
