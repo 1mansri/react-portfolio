@@ -5,7 +5,7 @@ import { About } from "./components/About"
 import { Portfolio } from "./components/Portfolio"
 import { Experience } from "./components/Experience"
 import { Contact } from "./components/Contact"
-import { SocialCard } from "./components/Socialcard"
+import { SocialCard } from "./components/SocialCard"
 import { Input } from "./components/Input"
 
 function App() {
