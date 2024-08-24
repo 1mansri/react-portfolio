@@ -4,6 +4,7 @@ import cssPortfolio from '../assets/Portfolio/cssPortfolio.jpg'
 import htmlPortfolio from '../assets/Portfolio/htmlPortfolio.jpg'
 import novel from '../assets/Portfolio/novel.jpg'
 import weather from '../assets/Portfolio/weather.jpg'
+import passChanger from '../assets/Portfolio/passChanger.jpeg'
 
 export const Portfolio = () => {
 
@@ -16,24 +17,30 @@ export const Portfolio = () => {
         },
         {
             id: 2,
+            src: passChanger,
+            demo: 'https://passwordchanger.netlify.app/',
+            code: 'https://github.com/1mansri/Password-Changer'
+        },
+        {
+            id: 3,
             src: javascriptProject,
             demo: 'https://1mansri.github.io/Durgesh-keyboard/',
             code: 'https://github.com/1mansri/Durgesh-keyboard'
         },
         {
-            id: 3,
+            id: 4,
             src: cssPortfolio,
             demo: 'https://1mansri.github.io/Durgesh-Kumar/',
             code: 'https://github.com/1mansri/Durgesh-Kumar'
         },
         {
-            id: 4,
+            id: 5,
             src: htmlPortfolio,
             demo: 'https://1mansri.github.io/Work-of-Durgesh/',
             code: 'https://github.com/1mansri/Work-of-Durgesh'
         },
         {
-            id: 5,
+            id: 6,
             src: novel,
             demo: 'https://www.pocketnovel.com/novel/5981e851f84273c250e384349f3000cf23cfa9fb',
             code: 'https://www.yourquote.in/aman-sri-doxjv/quotes'
