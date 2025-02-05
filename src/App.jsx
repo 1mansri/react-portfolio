@@ -10,16 +10,14 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="flex flex-col min-w-full " >
         <Navbar />
         <Home />
         <About />
         <Portfolio />
         <Experience />
         <Contact />
-
         <SocialLink />
-
       </div>
     </>
   )

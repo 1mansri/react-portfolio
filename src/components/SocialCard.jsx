@@ -66,7 +66,7 @@ export const SocialCard = () => {
 
     return (
         <div className='hidden lg:flex flex-col top-[26%] left-0 fixed'>
-            <div className="card">
+            <div className="card  ">
                 <ul>
                     {links.map(({ id, child, href, style, download, icon }) => (
                         <li key={id} className="iso-pro">
