@@ -6,7 +6,7 @@ import github from "../assets/github.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
 import tailwindImage from "../assets/tailwind.png";
-import next from "../assets/next.js.svg";
+import next from "../assets/Next.js.svg";
 import node from "../assets/node.svg"
 import express from "../assets/express.png"
 import mongo from "../assets/mongodb.svg"
