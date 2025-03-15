@@ -11,7 +11,7 @@ export const Home = () => {
                         I&apos;m a coder by day, a writer by night.
                     </h2>
                     <p className='text-gray-500 py-4 max-w-md'>
-                        I&apos;m a full-stack development while pursuing my B.Tech at IIT Kharagpur. When I&apos;m not buried in code, I like to unwind by writing poetry and stories. It&apos;s my way of blending creativity with logic, and I find that one inspires the other.
+                        I&apos;m a full-stack web developer while pursuing my B.Tech at IIT Kharagpur. When I&apos;m not buried in code, I like to unwind by writing poetry and stories. It&apos;s my way of blending creativity with logic, and I find that one inspires the other.
                     </p>
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-green-500 via-green-700 to-green-800 cursor-pointer'>
