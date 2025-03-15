@@ -8,7 +8,7 @@ export const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
                 <p className='text-xl mt-20'>
-                Software Engineer with a strong foundation in full-stack development, specializing in JavaScript, React.js, and Next.js. Passionate about building scalable web applications and optimizing system performance. Experienced in working collaboratively on team projects and implementing modern web technologies.
+                A B.Tech student in Civil Engineering with a strong passion for web development. Skilled in full-stack development, specializing in JavaScript, React.js, MongoDb, Node.js, Typescript, Three.js, ReactThreeFiber and Next.js. Passionate about building scalable web applications and optimizing system performance. Experienced in working collaboratively on team projects and implementing modern web technologies.
                 </p>
 
                 <br />

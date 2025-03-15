@@ -38,16 +38,16 @@ export const Portfolio = () => {
             code: 'https://github.com/1mansri/atoms'
         },
         {
-            id: 4,
-            src: megalith,
-            demo: 'https://www.megalith.co.in/',
-            code: 'https://www.megalith.co.in/'
-        },
-        {
             id: 5,
             src: weather,
             demo: 'https://1mansri.github.io/weather/',
             code: 'https://github.com/1mansri/weather'
+        },
+        {
+            id: 4,
+            src: megalith,
+            demo: 'https://www.megalith.co.in/',
+            code: 'https://www.megalith.co.in/'
         },
         {
             id: 6,
