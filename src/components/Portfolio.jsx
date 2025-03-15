@@ -1,4 +1,4 @@
-import React from 'react'
+
 import javascriptProject from '../assets/Portfolio/javascriptProject.jpg'
 // import cssPortfolio from '../assets/Portfolio/cssPortfolio.jpg'
 // import htmlPortfolio from '../assets/Portfolio/htmlPortfolio.jpg'
@@ -9,10 +9,16 @@ import mip from '../assets/Portfolio/mip.png'
 import megalith from '../assets/Portfolio/megalith-2025.png'
 import musicnext from '../assets/Portfolio/musicnext.png'
 import atoms from '../assets/Portfolio/atoms.jpeg'
-
+import whisper from '../assets/Portfolio/WhisperBox.jpeg'
 export const Portfolio = () => {
 
     const portfolio = [
+        {
+            id: 0,
+            src: whisper,
+            demo: 'https://whisper-box-git-main-1mansris-projects.vercel.app/',
+            code: 'https://github.com/1mansri/WhisperBox'
+        },
         {
             id: 1,
             src: mip,
@@ -82,8 +88,8 @@ export const Portfolio = () => {
                                     className='rounded-md duration-200 hover:scale-105'
                                 />
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'> <a href={demo}>Demo</a> </button>
-                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a href={code}>Code</a></button>
+                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'> <a target='_blank' href={demo}>Demo</a> </button>
+                                    <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'><a target='_blank' href={code}>Code</a></button>
                                 </div>
                             </div>
                         ))
